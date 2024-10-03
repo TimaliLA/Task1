@@ -165,7 +165,7 @@ th {
     transform: translateY(0);
 }
 
-/* Button Row Styles */
+
 .row4 {
     display: flex; 
     justify-content: flex-end; 
@@ -173,7 +173,7 @@ th {
     margin-top: 20px; 
 }
 
-/* Center Text */
+
 .text-center {
     text-align: center;
 }
