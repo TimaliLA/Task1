@@ -46,7 +46,11 @@ export class AppComponent {
   }
 
   deleteEmployee(index: number){
-    this.employees.splice(index,1);
+    const confirmation = confirm('Do you want to delete this employee?')
+    if (confirmation){
+      this.employees.splice(index,1);
+      console.log('Employee deleted successfully!');
+    }
   }
 
   editEmployee(index: number){
